@@ -489,7 +489,7 @@ class StockApp:
         stats_frame.pack(fill='x', padx=10, pady=5)
         self.stats_label = ttk.Label(stats_frame, text="")
         self.stats_label.pack()
-    
+#aide AI   
     def refresh_produits(self):
         cats = get_categories()
         fours = get_fournisseurs()
